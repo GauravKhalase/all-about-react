@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import Jsx from './components/jsxIntro/Jsx'
+import JsxIntro from './components/jsxIntro/Jsx'
+import UseStateIntro from './components/hooks/useStateHook/UseStateIntro'
 
 function App() {
 
   return (
     <div className=''>
       {/* //! JsxIntro */}
-      <Jsx></Jsx>
+      {/* <JsxIntro></JsxIntro> */}
+
+      {/* //! UseStateIntro */}
+      <UseStateIntro></UseStateIntro>
     </div>
   )
 }
