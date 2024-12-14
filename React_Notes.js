@@ -119,3 +119,49 @@
 // We can create components for such functionalities that are repetative & we can use such components n no. of times
 // Ex. We can create Button component & use it anywhere in the application by calling it.
 
+
+//! Interview Questions
+//? What is react?
+//? Features of react?
+//? Diff between library and framework?
+//? what is single page application?
+//? What is declarative?
+//? What is virtual dom?
+//? How many virtual dom react maintain? How? //2
+//? Diff between virtual dom and real dom?
+//? What is reconsilaition?
+//? What is react fiber?
+//? Diff between these two?
+//? Folder Structure of react?
+//? What is the use of scipts in package.json?
+//? What is component?
+//? What are types of components
+//? Diff between class based and function based components
+//? What is hooks?
+//? What is lifecycle methods? tell me some lifecycle methods?
+//? What is createRoot?
+//? What is react-dom? use? 
+//? What are the methods in react-dom?
+//? What is the use of cdn links?
+//? What is render?
+//? What is useState?
+//? What is props?
+//? What is props.children?
+//? Diff between props and state?
+//? What is prop drilling?
+//? How to avoid prop drilling?
+//?
+
+//! JS
+//? Functions & its types?
+//? generator functions?
+//? How this keyword works in those functions?
+//? Onject & object methods?
+//? Array & array methods?
+//? String & string methods?
+//? What is closure?
+//? Promises
+//? Async-Await
+//? Hoisting
+//? Destructuring
+//? call, apply, bind & their difference?
