@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import { Toaster } from "react-hot-toast";
 import JsxIntro from './components/jsxIntro/Jsx'
 import UseStateIntro from './components/hooks/useStateHook/UseStateIntro'
 import PropsIntro from './components/props/PropsIntro'
-import { Toaster } from "react-hot-toast";
+import ConditionalIntro from './components/conditionalRendering/ConditionalIntro'
+import EventsIntro from './components/events/EventsIntro'
 
 
 function App() {
@@ -17,7 +19,12 @@ function App() {
       {/* <UseStateIntro></UseStateIntro> */}
 
       {/* //! Props */}
-      <PropsIntro></PropsIntro>
+      {/* <PropsIntro></PropsIntro> */}
+
+      <ConditionalIntro></ConditionalIntro>
+
+      {/* <EventsIntro></EventsIntro> */}
+
       <Toaster />
     </div>
   )

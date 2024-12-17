@@ -2,29 +2,28 @@ import PropsEx1 from "./examples/PropsEx1";
 import PropsEx2 from "./examples/PropsEx2";
 import PropsEx3 from "./examples/PropsEx3";
 import FlipKartHeader from "./examples/FlipKartHeader";
-import Home from "./flipKart/Home";
+import Flipkart from "./flipKart/Flipkart";
 
 // Props are nothing but properties which is used to send data from one component to another component in the form of object,
 // Props are immutable.
 // We can create Props in CBC & FBC.
 // RFC : React Arrow function component
 // RCC : React Arrow Class Component
-//
 
 let PropsIntro = () => {
   return (
     <div>
       {/* <h1>PropsIntro</h1> */}
 
-      {/* <PropsEx1/>
+      {/* <PropsEx1 /> */}
 
-    <PropsEx2/>
+      {/* <PropsEx2 /> */}
 
-    <PropsEx3 /> */}
+      {/* <PropsEx3 /> */}
 
       {/* <FlipKartHeader/> */}
 
-      <Home></Home>
+      <Flipkart />
     </div>
   );
 };
